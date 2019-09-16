@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin:0;
+  padding: 0;
+/*   float: center; */
+}
+nav>ul>li{
+  display:inline;
+  text-decoration: none;
+  padding: 20px;
+  color: 2px solid black;
+}
+nav>ul>li a:hover{
+  color:white;
+}
+nav{
+  text-align:right;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: orange;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+section1{
+  margin-top: 30px;
+}
+section1>#Home>h1{
+  text-align: center;
+  padding: 30px;
+  font-size: 75px;
+  color: orange;
+}
+section1>#Home>img{
+  padding:10px;
+  background-color: orange;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+section1>#Home>p{
+  text-align: center;
+  text-shadow: 3px 5px 5px orange;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: serif;
+  font-style: italic;
+  color: black;
+}
+
+
+#Contacts>a>h1, #About>a>h1, #Designs>a>h1{
+  text-align: center;
+  color:orange;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-top: 10%;
+  padding: 10px;
+  background-color: white;
+}
+section2>#cups, #tshirts, #hoodies{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-top:auto;
+  width: 100%;
+  height: auto;
+}
+.a, .b, .c, .d, .e, .f, .g, .h, .i{
+  padding: 20px;
+  box-shadow:5px 5px 5px 2px orange;
+}
+p{
+  text-align: center;
+  font-family: 'comic sans MS';
+}
+
+h1{
+  text-align: center;
+}
+.text>p{
+  font-family: 'comic sans MS';
+  text-align:justify;
+  padding: 20px;
+  background-color: orange;
+  color: white;
+  margin-top: 0;
+}
+.text>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+span, ol>li{
+  font-size: 20px;
+  font-family: 'comic sans MS';
+}
+.contact>img{
+  padding:10px;
+  /* background-color: orange; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
